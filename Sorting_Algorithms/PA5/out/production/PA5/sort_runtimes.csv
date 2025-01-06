@@ -1,0 +1,9 @@
+sort_type,data_size,run_time
+Quick Sort,10000,1791910
+Quick Sort,20000,2232670
+Quick Sort,40000,4661340
+Quick Sort,80000,11500930
+Quick Sort,160000,19760400
+Quick Sort,320000,65642940
+Quick Sort,640000,139168980
+Quick Sort,1280000,296334770
