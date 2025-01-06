@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HeapQueue_And_KNN.iml" filepath="$PROJECT_DIR$/HeapQueue_And_KNN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PA7.iml" filepath="$PROJECT_DIR$/PA7.iml" />
     </modules>
   </component>
 </project>

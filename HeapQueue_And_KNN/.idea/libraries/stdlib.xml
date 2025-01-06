@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="stdlib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/PA7/src/stdlib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/stdlib.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/stdlib.jar!/" />
+    </SOURCES>
   </library>
 </component>

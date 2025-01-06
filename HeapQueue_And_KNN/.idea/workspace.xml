@@ -1,40 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aeac8b22-cd7d-4ad2-8ecf-401fae3f37ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PA7/src/MyPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA7/src/MyPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA7/src/MyPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA7/src/MyPriorityQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA7/src/Worksheet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA7/src/dHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/PA7/src/dHeap.java" afterDir="false" />
+    <list default="true" id="502d286e-942c-403a-9fcb-abd98de82149" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/MyPriorityQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPriorityQueueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gqA47oL6wezaPy3RdQptdMykjo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="2rH4Uc860vhENUWjyymdajcMieq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ImageRenderer.executor": "Run",
+    "Application.MNIST.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MyPriorityQueueTest.teslktOffer.executor": "Run",
+    "JUnit.MyPriorityQueueTest.tesltOffer.executor": "Run",
+    "JUnit.MyPriorityQueueTest.testOffer.executor": "Run",
+    "JUnit.MyPriorityQueueTest.testgOffer.executor": "Run",
+    "JUnit.dHeapTest.executor": "Run",
+    "JUnit.dHeapTest.nullException.executor": "Run",
+    "JUnit.dHeapTest.testAggdd.executor": "Run",
+    "JUnit.dHeapTest.testClear.executor": "Run",
+    "JUnit.dHeapTest.testHeapResize.executor": "Run",
+    "JUnit.dHeapTest.testRemojve.executor": "Run",
+    "JUnit.dHeapTest.testResize2.executor": "Run",
+    "JUnit.dHeapTest.testResize3.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Kevin/project/-Data-Structures-and-Algorithms/LRU Cache"
+    "last_opened_file_path": "C:/Users/Kevin/dsc30_sp24/dsc30-pa7/PA7",
+    "onboarding.tips.debug.path": "C:/Users/Kevin/dsc30_sp24/dsc30-pa7/PA7/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyPriorityQueueTest.testgOffer">
+    <configuration name="MyPriorityQueueTest.teslktOffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyPriorityQueueTest" />
+      <option name="METHOD_NAME" value="teslktOffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPriorityQueueTest.tesltOffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyPriorityQueueTest" />
+      <option name="METHOD_NAME" value="tesltOffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPriorityQueueTest.testOffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyPriorityQueueTest" />
+      <option name="METHOD_NAME" value="testOffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPriorityQueueTest.testgOffer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyPriorityQueueTest" />
+      <option name="METHOD_NAME" value="testgOffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dHeapTest.testRemojve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PA7" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="dHeapTest" />
+      <option name="METHOD_NAME" value="testRemojve" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyPriorityQueueTest.testgOffer" />
+        <item itemvalue="JUnit.MyPriorityQueueTest.teslktOffer" />
+        <item itemvalue="JUnit.MyPriorityQueueTest.tesltOffer" />
+        <item itemvalue="JUnit.MyPriorityQueueTest.testOffer" />
+        <item itemvalue="JUnit.dHeapTest.testRemojve" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,12 +148,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aeac8b22-cd7d-4ad2-8ecf-401fae3f37ca" name="Changes" comment="" />
-      <created>1736202682577</created>
+      <changelist id="502d286e-942c-403a-9fcb-abd98de82149" name="Changes" comment="" />
+      <created>1716414540977</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1736202682577</updated>
+      <updated>1716414540977</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
