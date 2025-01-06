@@ -1,0 +1,10 @@
+# IntelliJ IDEA settings
+.idea/
+
+# Build output
+out/
+
+# Other ignored files
+*.class
+*.log
+*.tmp
