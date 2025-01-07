@@ -7,8 +7,9 @@
  * Transcribes DNA into RNA and then translate the RNA into a protein sequence.
  *
  * @author Kevin Wu
+ *
+ *
  */
-
 
 class ProteinSynthesis {
     private static final int CODON_LENGTH = 3;
@@ -20,6 +21,7 @@ class ProteinSynthesis {
      * @param dna String of DNA to be transcribed.
      *
      */
+     
     public CharQueue transcribeDNA(String dna) {
 
         if (dna.length() % 3 != 0) {
