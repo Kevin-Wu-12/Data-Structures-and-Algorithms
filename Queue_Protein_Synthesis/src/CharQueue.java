@@ -10,10 +10,11 @@ import java.util.NoSuchElementException;
  * Creates a circular queue.
  *
  * @author Kevin Wu
+ *
+ *
  */
 
 public class CharQueue {
-    /* instance variables, feel free to add more if you need */
     private char[] circularArray;
     private int length;
     private int capacity;
