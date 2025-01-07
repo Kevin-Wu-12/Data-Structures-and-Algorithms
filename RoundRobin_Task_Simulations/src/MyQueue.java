@@ -81,6 +81,7 @@ public class MyQueue<T> {
         }
         return list.get(0);
     }
+
     /**
      * Turns the queue into a readable string.
      *

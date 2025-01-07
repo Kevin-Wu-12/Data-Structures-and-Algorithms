@@ -427,7 +427,7 @@ public class DoublyLinkedList<T> extends AbstractList<T> {
         swapHalves(n - 1, mid, end);
     }
 
-    public void swapHaljves(int toInsert) {
+    public void swapHalves(int toInsert) {
         if (head.next == null) {
             throw new NullPointerException();
         }
