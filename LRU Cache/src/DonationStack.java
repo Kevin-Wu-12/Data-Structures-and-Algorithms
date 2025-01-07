@@ -1,7 +1,4 @@
-/*
- * Name: TODO
- * PID: TODO
- */
+
 
 import java.util.*;
 
@@ -9,6 +6,7 @@ import java.util.*;
  * Keeps track of donations
  *
  * @author Kevin Wu
+ *
  */
 
 public class DonationStack {
