@@ -37,9 +37,9 @@ public class Sorts {
     /**
      * This method performs quick sort on the input arraylist
      *
-     * @param list The arraylist we want to sort
+     * @param list  The arraylist we want to sort
      * @param start The initial index on subsection of Arraylist we want to sort
-     * @param end The final index of the subsection of Arraylist we want to sort
+     * @param end   The final index of the subsection of Arraylist we want to sort
      */
     public static void quickSort(ArrayList<Integer> list, int start, int end) {
         if (start < end) {
@@ -58,7 +58,7 @@ public class Sorts {
      *
      * @param arr  The arraylist we want to swap its elements
      * @param idx1 The index of element 1
-     * @param idx2  The index of element 2
+     * @param idx2 The index of element 2
      */
     private static void swap(ArrayList<Integer> arr, int idx1, int idx2) {
         int temp = arr.get(idx1);
@@ -70,9 +70,9 @@ public class Sorts {
      * This is a method that partitions a list inplace where everything to the left of the pivot
      * is less than the pivot and everything to the right of the pivot is greater than the pivot
      *
-     * @param arr The list to partition
-     * @param start The index that represents the start of part to partition
-     * @param stop The index that represents the end of the part to partition (inclusive)
+     * @param arr     The list to partition
+     * @param start   The index that represents the start of part to partition
+     * @param stop    The index that represents the end of the part to partition (inclusive)
      * @param pivotIx The index desired to be the pivot
      * @return returns the correct position of the pivot
      */
@@ -93,6 +93,7 @@ public class Sorts {
     /**
      * this helper finds the appropriate number of buckets you should allocate
      * based on the range of the values in the input list
+     *
      * @param list the input list to bucket sort
      * @return number of buckets
      */
@@ -105,10 +106,11 @@ public class Sorts {
     /**
      * this helper finds the appropriate bucket index that a data should be
      * placed in
-     * @param data a particular data from the input list if you are using
-     *             loop iteration
+     *
+     * @param data       a particular data from the input list if you are using
+     *                   loop iteration
      * @param numBuckets number of buckets
-     * @param listMin the smallest element of the input list
+     * @param listMin    the smallest element of the input list
      * @return the index of the bucket for which the particular data should
      * be placed in
      */
@@ -177,7 +179,7 @@ public class Sorts {
 
         // Store the cummulative count of each array
         for (int i = 1; i <= max; i++) {
-            count[i] += count[i-1];
+            count[i] += count[i - 1];
 
         }
 
@@ -191,42 +193,30 @@ public class Sorts {
         return output;
     }
 
-    ////////////////////////
-    ///// EXTRA CREDIT /////
-    ////////////////////////
-    
     public static boolean inspectInsertion(int[] arr, int n) {
-            for (int i = 1; i < n; i++) {
-                if (arr[i - 1] > arr[i]) {
-                    return false;
-                }
+        for (int i = 1; i < n; i++) {
+            if (arr[i - 1] > arr[i]) {
+                return false;
             }
-            return true;
         }
-
+        return true;
+    }
 
 
     public static boolean inspectSelection(int[] arr, int n) {
-            for (int i = 1; i < n; i++) {
-                if (arr[i - 1] > arr[i]) {
+        for (int i = 1; i < n; i++) {
+            if (arr[i - 1] > arr[i]) {
+                return false;
+            }
+        }
+        for (int i = n; i < arr.length; i++) {
+            for (int j = 0; j < n; j++) {
+                if (arr[i] < arr[j]) {
                     return false;
                 }
             }
-            for (int i = n; i < arr.length; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (arr[i] < arr[j]) {
-                        return false;
-                    }
-                }
-            }
-            return true;
         }
-
-
-
-    public static boolean inspectMerge(int[] arr, int n) {
-        // TODO
-        return false;
+        return true;
     }
-    
 }
+
